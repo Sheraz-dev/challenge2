@@ -7,7 +7,7 @@
     "start": "budo index.js --live",
     "build": "browserify index.js | uglifyjs -mc > public/index.js",
     "deploy": "npm run build && surge public",
-    "test": "standard"
+    "test": "standard --fix"
   },
   "keywords": [],
   "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
